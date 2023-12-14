@@ -53,10 +53,9 @@ public class SpwanerRubickCube : MonoBehaviour
                 {
                     if (ShouldSpawn(x,y,z))
                     { 
-                        if  ()
-                        {
+                       
                             matrix3D[x, y, z] = Instantiate(tileHolder, SpawnPosition(x, y, z), Quaternion.identity, transform);
-                        }
+                        
                     }
                     
                     yield return new WaitForSeconds(0.005f);
